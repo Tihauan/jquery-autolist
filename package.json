@@ -3,14 +3,14 @@
 	"description": "Enable autocomplete suggestions for inputs using a JSON-based API as the datasource.",
 	"version": "1.0.0",
 	"keywords": [
-		"jquery-plugin",
-		"ecosystem:jquery",
+		"autocomplete",
+		"json",
+		"input",
+		"ui",
 		"autolist",
 		"datalist",
-		"json",
-		"ui",
-		"input",
-		"autocomplete"
+		"jquery-plugin",
+		"ecosystem:jquery"
 	],
 	"author": {
 		"name": "Dragoş Tihăuan",
@@ -20,7 +20,7 @@
 	"main": "jquery.autolist.js",
 	"license": "MIT",
 	"homepage": "https://github.com/Tihauan/jquery-autolist",
-	"demo": "https://tihauan.github.io/jquery-autolist/demo.html",
+	"demo": "https://tihauan.github.io/jquery-autolist/demo/demo.html",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/Tihauan/jquery-autolist.git"

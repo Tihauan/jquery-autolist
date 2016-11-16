@@ -1,9 +1,9 @@
 ## About
 Simple jQuery 3 plugin to enable autocomplete suggestions for inputs. Uses a JSON-based API as the datasource. Works with either plain HTML or Bootstrap form controls.
 
-![jquery-autolist demo](https://raw.githubusercontent.com/tihauan/jquery-autolist/master/demo.png)
+![jquery-autolist demo](https://raw.githubusercontent.com/tihauan/jquery-autolist/master/demo/demo.png)
 
-[DEMO](https://tihauan.github.io/jquery-autolist/demo.html)
+[DEMO](https://tihauan.github.io/jquery-autolist/demo/demo.html)
 
 ## Usage example
 ``` html
@@ -30,6 +30,7 @@ The datalist must exist and must be linked to the input field.
         query: "q",
         minLength: 3,
         delay: 500,
+        trimValue: true,
         getItems: function (response) { return response.items; },
         getName: function (item) { return item.full_name; }
     })
@@ -47,5 +48,5 @@ getName |  | (i) ⇒ i | Function to get the name that will be displayed from an
 
 ## Changelog
 
-### Version 1.0.0 - 2016/11/16
+### Version 1.0.0/1.0.1 - 2016/11/16
 * initial release
