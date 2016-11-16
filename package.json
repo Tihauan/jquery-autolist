@@ -1,31 +1,31 @@
 {
-	"name": "jquery-autolist",
-	"description": "Enable autocomplete suggestions for inputs using a JSON-based API as the datasource.",
-	"version": "1.0.0",
-	"keywords": [
-		"autocomplete",
-		"json",
-		"input",
-		"ui",
-		"autolist",
-		"datalist",
-		"jquery-plugin",
-		"ecosystem:jquery"
-	],
-	"author": {
-		"name": "Dragoş Tihăuan",
-		"url": "http://twitter.com/tihauan",
-		"email": "dragos@tihauan.ro"
-	},
-	"main": "jquery.autolist.js",
-	"license": "MIT",
-	"homepage": "https://github.com/Tihauan/jquery-autolist",
-	"demo": "https://tihauan.github.io/jquery-autolist/demo/demo.html",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/Tihauan/jquery-autolist.git"
-	},
-	"dependencies": {
-		"jquery": ">=3.0.0"
-	}
+  "name": "jquery-autolist",
+  "description": "Enable autocomplete suggestions for inputs using a JSON-based API as the datasource.",
+  "version": "1.0.1",
+  "keywords": [
+    "autocomplete",
+    "json",
+    "input",
+    "ui",
+    "autolist",
+    "datalist",
+    "jquery-plugin",
+    "ecosystem:jquery"
+  ],
+  "author": {
+    "name": "Dragoş Tihăuan",
+    "url": "http://twitter.com/tihauan",
+    "email": "dragos@tihauan.ro"
+  },
+  "main": "jquery.autolist.js",
+  "license": "MIT",
+  "homepage": "https://github.com/Tihauan/jquery-autolist",
+  "demo": "https://tihauan.github.io/jquery-autolist/demo/demo.html",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tihauan/jquery-autolist.git"
+  },
+  "dependencies": {
+    "jquery": ">=3.0.0"
+  }
 }
